@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="login-section">
+    <div class="formbox login">
+       
+            <h2>Sign in </h2>
+            <div class="input-box">
+                <span class="icon">
+                    <i class='bx bxs-user'></i>
+                </span>
+                <input type="text" id="username" name="username" required autocomplete="username">
+                <label for="username">Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <i class='bx bxs-lock-alt'></i>
+                </span>
+                <input type="password" class="password" id="password" name="password" required autocomplete="current-password">
+                <label for="password">Password</label>
+            </div>
+
+            <button class="btn" type="submit">Sign IN </button>
+            <div class="create-account">
+                <p>Create an Account? <a href="#" class="register-link">Sign UP</a></p>
+            </div>
+       
+    </div>
+    <div class="formbox register">
+        
+            <h2>Registration </h2>
+            <div class="input-box">
+                <span class="icon">
+                    <div class='bx bxs-user'></div>
+                </span>
+                <input type="text" id="register-username" name="username" required autocomplete="username">
+                <label for="register-username">UserName</label>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <div class='bx bxs-lock-alt'></div>
+                </span>
+                <input type="password" class="password" id="register-password" name="password" required autocomplete="new-password">
+                <label for="register-password">Password</label>
+            </div>
+            <button class="btn" type="submit" >Registration</button>
+            <div class="create-account">
+                <p>Already have an account? <a href="#" class="login-link">Sign in </a></p>
+            </div>
+       
+    </div>
+</div>
+<script src="scripts1.js"></script>
+</body>
+</html>
