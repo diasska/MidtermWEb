@@ -68,8 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const user = users.find(user => user.username === username && user.password === password);
 
         if (user) {
-            alert(`Welcome back, ${user.username}!`);
             window.location.href= "hello.html"
+            alert(`Welcome back, ${user.username}!`);
+            
 
         } else {
             alert("Invalid username or password. Please try again.");
