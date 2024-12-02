@@ -1,0 +1,23 @@
+ Project Flow
+Registration Process:
+
+User inputs a username and password in the registration form.
+The system validates the input:
+Username must be unique.
+Password must have at least 8 characters.
+Upon successful registration:
+The user is added to the users array.
+A success notification is shown (alert).
+The current list of users is logged in the console.
+Login Process:
+
+User inputs credentials in the login form.
+The system checks for matching username and password in the users array.
+Upon successful login:
+A welcome notification is displayed.
+If the credentials are incorrect:
+An error notification prompts the user to try again.
+Additional Features:
+
+Password strength feedback dynamically updates as the user types.
+Animations create a smooth transition between login and registration forms.
