@@ -69,6 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (user) {
             alert(`Welcome back, ${user.username}!`);
+            window.location.href= "hello.html"
+
         } else {
             alert("Invalid username or password. Please try again.");
         }
